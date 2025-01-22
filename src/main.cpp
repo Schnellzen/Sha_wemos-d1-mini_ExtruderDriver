@@ -233,7 +233,7 @@ void setup()   {
 
   //setup HX711
   LoadCell.begin(DT_HX711, SCK_HX711);
-  LoadCell.set_scale(-49.542); // calibration factor = (reading)/(known weight)
+  LoadCell.set_scale(-9.76); // calibration factor = (reading)/(known weight)
   LoadCell.tare(); // reset the LoadCell to 0
 
   //pinmod for DRV8825
